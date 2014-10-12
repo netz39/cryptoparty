@@ -1,7 +1,35 @@
 Cryptoparty mit der VHS
 =======================
+http://netz39.github.io/cryptoparty/#/
 http://www.netz39.de/wiki/events:2014:cryptoparty
 https://github.com/netz39/cryptoparty.git
+2014-10-11
+==========
+TODOs zur Überarbeitung des Foliensatzes
+[V]  * nach dem Vortrag nach Erwartungen/Fehlendem fragen [Tux]
+[V]  * Begrüßung: nur die letzten beiden Folien
+    * Beispiele kürzen (nur 3) [alex]
+      * Beispiel 1 – Andrej Holm
+      * Beispiel 2 – Kutscher aus Regensburg
+      * Beispiel 3 – Johannes Niederhauser
+      * Beispiel 4 – Student in monatelanger U-Haft
+      * Beispiel 5 – Überwachung eines Sportjournalisten
+      * Beispiel 6 – Ilija Trojanow
+      * Beispiel 7 – Razzia Pfarrer Lothar König
+      * Beispiel 8 – Andrea Röpke
+    * https://github.com/netz39/cryptoparty/pull/2
+    * -> andere später reinnehmen
+[V]  * Passwort-Manager [Johannes]
+    * keepassx
+[V]  * GnuPG Video funktioniert nicht, andere Folien [Franz]
+[V]  * TrueCrypt [Rosario]
+[V]  * TextSecure [Tux]
+  
+[V]  * https://netzpolitik.org/2014/e-mail-selbstverteidigung-der-fsf-verfuegbar-in-deutsch/ [Tux]
+[V]  * "Umstieg auf freie Software" [Tux]
+[V]  * Mailpile [Basti]
+2014-02-22
+===========
 Orga: Andre, Alex, Basti, Andi ( http://www.netz39.de/wiki/stammtisch:2013:2013-11-06#cryptoparty_mit_vhs )
 Termin: 2014-02-22 Z10:00-14:00 (4 Stunden)
 Besprechung 2014-02-18 10:00 in der VHS
