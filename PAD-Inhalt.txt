@@ -1,0 +1,232 @@
+Cryptoparty mit der VHS
+=======================
+http://netz39.github.io/cryptoparty/#/
+http://www.netz39.de/wiki/events:2014:cryptoparty
+https://github.com/netz39/cryptoparty.git
+2014-10-11
+==========
+TODOs zur Überarbeitung des Foliensatzes
+[V]  * nach dem Vortrag nach Erwartungen/Fehlendem fragen [Tux]
+[V]  * Begrüßung: nur die letzten beiden Folien
+    * Beispiele kürzen (nur 3) [alex]
+      * Beispiel 1 – Andrej Holm
+      * Beispiel 2 – Kutscher aus Regensburg
+      * Beispiel 3 – Johannes Niederhauser
+      * Beispiel 4 – Student in monatelanger U-Haft
+      * Beispiel 5 – Überwachung eines Sportjournalisten
+      * Beispiel 6 – Ilija Trojanow
+      * Beispiel 7 – Razzia Pfarrer Lothar König
+      * Beispiel 8 – Andrea Röpke
+    * https://github.com/netz39/cryptoparty/pull/2
+    * -> andere später reinnehmen
+[V]  * Passwort-Manager [Johannes]
+    * keepassx
+[V]  * GnuPG Video funktioniert nicht, andere Folien [Franz]
+[V]  * TrueCrypt [Rosario]
+[V]  * TextSecure [Tux]
+  
+[V]  * https://netzpolitik.org/2014/e-mail-selbstverteidigung-der-fsf-verfuegbar-in-deutsch/ [Tux]
+[V]  * "Umstieg auf freie Software" [Tux]
+[V]  * Mailpile [Basti]
+2014-02-22
+===========
+Orga: Andre, Alex, Basti, Andi ( http://www.netz39.de/wiki/stammtisch:2013:2013-11-06#cryptoparty_mit_vhs )
+Termin: 2014-02-22 Z10:00-14:00 (4 Stunden)
+Besprechung 2014-02-18 10:00 in der VHS
+  * bislang 13 Teilnehmer (max 20 möglich)
+  * WLAN vorhanden (Tux hat abgesprochen, dass wir einen Freifunk-Router mitbringen, weil das WLAN nicht allen Teilnehmern zur Verfügung steht)
+  * Beamer+Leinwand vorhanden
+  * Wir bekommen noch Informationen über vorhandene Systeme, derzeit: Xubuntu, Windows 7, Android
+Wichtig: Die Teilnehmer sollen mit dem Gefühl aus der Veranstaltung gehen, dass sie trotz der Überwachtung/Datensammlung etwas tun können. Und nach Möglichkeit Lust auf mehr Engagement in Richtung Sicherheit bekommen. (aka sensibilisieren, aber keine Panik verbreiten)
+Mögliche Abschnitte:
+    * Wie schütze ich meine Daten? → Verschlüsselung (TrueCrypt, dm-cyrpt/luks, …)
+    * Wie schütze ich meine Kommunikation?
+    * Wie bleibe ich anonym?
+Vor wem will ich mich schützen?  Vor wem kann ich mich schützen?
+=================================================================
+#################################################################
+Mögliche Themen/Ablauf/Struktur - viel zu viel für 4h und ich will euch ja auch nichts vorschreiben ;)
+1. Begrüßung und Verein & Dozenten kurz vorstellen
+2. Erwartungen der Teilnehmer klären
+    - warum sind sie hier
+    - wollen sie eher allgemeine Fragen beantwortet haben oder schon speziell Hands on
+        --> danach richtet sich dann so ein bisl der Ablauf und die Themen
+3. Übersichtsvortrag
+    3.1 welche Teile der Kommunikation sind sichtbar, was ist verschlüsselt und was lässt sich tracken? (Threat Modelling)
+    3.2 Social Engineering, Identitätsdiebstahl --> "Ich habe nichts zu verbergen." — "Doch!" 
+        - Hauptproblem: Ottonormalbürger ist nicht sensibilisiert
+
+            - man wird i.d.R. auch nicht gezielt überwacht (e.g. wie bei der Stasi), aber man kann halt sehr schnell durch ein Raster fallen. Beim 30C3 gabs doch nen Vortrag dazu: Aufwand und Nutzen von Überwachung und dass das in einem Teufelskreis endet.
+
+        - Stichwort: schwammige Definition/Auslegung von Gesetzten. Grauzonen. Wenn legales plötzlich doch irgendwie illegal ist. Siehe z.B. http://www.heise.de/tp/blogs/5/155891
+    3.3 Beispiele
+            - Andrej Holm
+                - jahrelang überwacht, weil er in seinen Publikationen die "falschen" Begriffe verwendet hat
+            - Kutscher aus Regensburg
+                - mit der "falschen" Person kommuniziert
+                - Link: http://www.regensburg-digital.de/regensburg-kutscher-wurde-ueberwacht/25102013/
+            - Johannes Niederhauser
+                - durfte nicht in USA einreisen
+                - krasser Fall von "wir schneiden erstmal jegliche (email)Kommunikation mit"
+                - Link: http://www.vice.com/de/read/america-knows-everything/
+            - Gesichtserkennung
+                - Link: https://blog.fefe.de/?ts=ac902841
+            - Student in monatelanger U-Haft
+                - weil er sich über die "falschen" Dinge weiterbilden wollte
+                - und "falsche" Herkunft hat
+                - Link: http://www.heise.de/tp/artikel/40/40192/1.html
+            - Überwachung eines Sportjournalisten
+                - weil er über die "falschen" Dinge recherchiert und berichtet hat
+                - Link: http://www.sueddeutsche.de/medien/sportjournalist-von-verfassungsschutz-beobachtet-unter-verdacht-1.1780710
+            - Ilija Trojanow
+                - Einreiseverbot für die USA
+                - Gründe: unbekannt
+                - Link: http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html
+            - Razzia bei einem Pfarrer
+                - weil er sich gegen Rechtsextremismus eingesetzt hat
+                - Link: https://www.taz.de/!76044/
+            - Andrea Röpke
+                - jahrelang vom Verfassungsschutz beobachtet
+                - weil sie sich als Journalistin auf das "falsche" Thema spezialisiert hat
+                - Link: http://www.sueddeutsche.de/medien/ueberwachung-durch-verfassungsschutz-das-ganze-ausmass-1.1779760
+        Fazit:
+            - es wird jegliche Kommunikation überwacht/mitgeschitten
+            - es kann jeden treffen, egal ob Student, Journalist, Pfarrer
+            - man gerät schnell ins Raster, wenn
+                - man sich über die "falschen" Dinge informieren will
+                - man die "falschen" Dinge kauft, e.g. 10 Liter Bleiche ;)
+                - man zur falschen Zeit am falsche Ort neben der falschen Person steht
+            - wenn man betroffen ist, erfährt man i.d.R. NIE warum --> Ohnmacht, mulmiges Gefühl
+            --> vielleicht als Anregung für die Teilnehmer mit aktuellem Bezug: Edathy. Wer würde sich heutzutage noch (privat, nicht als Journalist o.ä.) trauen über KiPo zu recherchieren und Zahlen/Fakten zu prüfen. etc.?
+4. Was kann man tun?
+4.1 Internet/surfen
+Spaß zum auflockern: http://www.netzmafia.de/skripten/netze/etherkiller.jpg
+http://xkcd.com/916/
+
+    4.1.1 Browser Plugins
+
+    - https-everywhere: https://www.eff.org/https-everywhere
+
+    - ghostery: https://www.ghostery.com/
+
+    - flashblock: https://addons.mozilla.org/de/firefox/addon/flashblock/
+
+    - adblock? (see: http://do-s.de/adblock-plus-und-debian/ )
+
+    - noscript: http://noscript.net/ (zu kompliziert?)
+
+    - cookie monster: https://addons.mozilla.org/de/firefox/addon/cookie-monster/
+
+    - SSL-Einstellungen absichern: http://www.kubieziel.de/blog/archives/1563-SSL-im-Browser-sicher-verwenden.html
+
+    4.1.2 Tor
+        - Kurzer Anriss, was TOR ist und warum wir es haben wollen
+        - TOR-Browser herunterladen und ausprobieren
+    4.1.3 Soziale Netzwerke
+
+        - Diaspora e.g. statt Facebook
+
+    4.1.4 Suchmaschinen
+
+    - Ixquick
+
+    - Startpage
+
+    - DuckDuckGo
+
+    - MetaGer
+
+    - blekko
+
+4.2 Kommunikation
+    4.2.1 Chat
+        - OTR
+            - z.B. mit Pidgin und pidgin-otr plugin
+            - gute Anleitung: http://www.spiegel.de/netzwelt/netzpolitik/mit-jabber-pidgin-und-otr-so-chatten-sie-verschluesselt-a-912957.html
+        - XMPP mit GnuPG
+            - z.B. mit Psi
+            - http://xmpp.org/extensions/xep-0027.html
+    4.2.2 E-Mail
+        - GnuPG/PGP/..
+
+            - schöner Stiftfilm: https://mailbox.org/stiftfilm-wie-funktioniert-e-mail-verschluesselung-mit-pgp/
+
+            - in Thunderbird mit dem Enigmail plugin (Win,Lin)
+            - K9-Mail mit APG (Android)
+            - Keysining
+        - Email-Anbieter im Web
+
+            - bieten ja eigentlich (bisher) keine End-zu-End Verschlüsselung, aber grade auf Heise, das hier gesehen: http://www.heise.de/newsticker/meldung/Mailbox-org-Vollstaendig-verschluesselter-deutscher-E-Mail-Dienst-2120363.html
+
+    - müsste man sich mal anschauen, ob das für den Ottonormalemailverschicker ne gute Alternative ist
+
+    - posteo.de bietet zumindest Verschlüsselung von Adressbuch und Kalender
+
+    - http://www.heise.de/newsticker/meldung/Mailbox-org-Vollstaendig-verschluesselter-deutscher-E-Mail-Dienst-2120363.html
+
+    4.4.3 Telefon/Handy/Smartphone aka mobile tracking device
+
+        - Jolla, Cyanogenmod
+
+4.3 Verschlüsselung von Daten
+    - TrueCrypt
+    - dm-cyrpt/luks  
+4.4. Verzicht auf proprietäre Software (und auch Hardware)
+    - Vergangenheit zeigt, dass es immer wieder Hintertüren in prop. Software gab
+        - e.g. MS Windows: http://www.heise.de/tp/artikel/5/5263/1.html
+        - Softwarekonzerne werden oft dazu gezwungen und müssen Geheimhaltung bewahren
+    - FOSS ist quelloffen und kann (im Prinzip) jederzeit auf Schadcode untersucht werden
+        - das macht sicherlich nicht der Ottonormaluser, aber eine starke Community
+    --> Fazit: Hintertüren und Schadcode können in jeder (auch FOSS) Software stecken, aber bei FOSS kann man nachschauen, prop. Software "muss" man vertrauen.
+    Hier empfiehlt sich ein Blick auf https://prism-break.org/de/
+Betriebssysteme:
+    Windows --> Linux
+    *buntu --> ordentliches Linux™
+    Android --> Cyanogenmod, Replicant
+    Mac_Os --> Linux
+Softwarestore
+
+    GooglePlayStore --> F-Droid
+
+4.5. Unterstützen
+
+    - netzpolitik.org
+
+    - FOSS
+
+    - digital courage e.V.
+
+    - FSFE (z.B. indem man seine Bücher bei bookzilla statt amazon kauft)
+
+    - Netz39 Mitglied werden
+
+    - Freifunk aufbauen
+
+    - CCC
+
+    IMO wichtig: Technik darf nicht die (einzige) Lösung der Überwachunsgproblematik sein/werden. Politisches und gesellschaftliches Engagement sollte hier an 1. Stelle stehen.
+
+5. Passwörter
+    - was sind sinnvolle Passwörter?
+
+        - https://xkcd.com/936/
+
+    - wie schützt man sie vor Fremdzugriff?
+    - wie schützt man sie vor der eigenen Vergesslichkeit?
+    - wie schützt man sie vor Diebstahl/Beschlagnahme elektr. Geräte? (wenn z.b. mein ganz wichtiger 100 Zeichen langer key auf einem USB Stick gespeichert war/ist und der ist jetzt weg)
+6. https://xkcd.com/538/
+Weiterführende Links/Informationen:
+    - http://icanhazdigitalsecurity.tumblr.com/post/76757239689/halp-others-with-privacy-and-security-toolz-by
+      - https://www.cryptoparty.in/resource
+      - http://wiki.ubuntuusers.de/Sicherheit bietet IMHO einen ziemlich guten und allgemeinverständlichen Überblick
+      - https://prism-break.org/de/
+      - Freies ebook bei Netzpolitik: https://netzpolitik.org/2014/wir-verschenken-unser-buch-ueberwachtes-netz-der-sammelband-zum-nsa-skandal/
+
+          - vll. 1-2 mal ausdrucken, zum drin rumblättern und neugierig machen
+
+    - Digital Courage habe ne Menge Flyer/Broschüren/Bücher zu dem Thema
+
+    - https://shop.digitalcourage.de/kategorie/flyerfolderplakate/
+
+    - https://shop.digitalcourage.de/kategorie/buecherbroschueren/
+
